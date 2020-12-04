@@ -8,11 +8,6 @@ https://techumseh.github.io/Rhyme-line/
 
 This is an desktop first web application creatle a list of music artists and return information about them including Artist Photo Artist Bio Artist Musicography Genre Link to artist on music store platform
 
-API and Data Sample
-https://www.theaudiodb.com/api/v1/json/1/search.php?s=public enemy
-
-Wireframes
-https://wireframe.cc/jVKB06
 
 MVP/PostMVP
 The functionality will then be divided into two separate lists: MPV and PostMVP.
@@ -36,12 +31,13 @@ This schedule will be used to keep track of your progress throughout the week an
 You are responsible for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding Saturday and Sunday.
 
 Day	Deliverable	Status
-Nov 9	Prompt / Wireframes / Priority Matrix / Timeframes	Incomplete
-Nov 10	Project Approval	Incomplete
-Nov 12	Core Application Structure (HTML, CSS, etc.)	Incomplete
-Nov 13	Pseudocode / actual code	Incomplete
-Nov 16	MVP	Incomplete
-Nov 17	Presentations	Incomplete
+Dec 03	Prompt / Wireframes / Priority Matrix / Timeframes	Incomplete
+Dec 04	Project Approval	Incomplete
+Dec 05Core Application Structure (HTML, CSS, etc.)	Incomplete
+Dec 06	Pseudocode / actual code	Incomplete
+Dec 04	MVP	Incomplete
+Dec 10 	Upload to GitHub
+Dec 11	Presentations	Incomplete
 Priority Matrix
 URL
 
