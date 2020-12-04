@@ -4,7 +4,6 @@ Rhymeline is a web app designed for creating a playlist on musical artists.
 Project Description
 https://techumseh.github.io/Rhyme-line/
 
-https://airtable.com/tblOl4Xf9d8DDeiqQ/viwO6tfhwoc973zVw?blocks=hide
 
 
 
@@ -23,9 +22,7 @@ PostMVP
 Allow user to select artist album track and listen to sample
 Allow user to follow link to music store to purchase/add music to playlist
 artist/song recommendations based on mood/time of day/ etc- add ability to create account
-add Apple Music and Spotify
-Add ability to add friends
-add timeline of user likes and shared
+
 Use local storage to save user favorites
 Project Schedule
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.
@@ -59,9 +56,9 @@ Total	H	6hrs	5hrs	5hrs
 Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
 
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+curl "https://api.airtable.com/v0/appk5Co4HwK2FZfB7/artist?maxRecords=3&view=Grid%20view" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+
 Change Log
 Use this section to document what changes were made and the reasoning behind those changes.
 
