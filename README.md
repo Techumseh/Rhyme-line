@@ -42,10 +42,8 @@ Allow user to add artist information for playlist
 
 PostMVP
 Allow user to select artist album track and listen to sample
-Allow user to follow link to music store to purchase/add music to playlist
-artist/song recommendations based on mood/time of day/ etc- add ability to create account
-
 Use local storage to save user favorites
+
 Project Schedule
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.
 
