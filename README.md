@@ -7,7 +7,7 @@ https://techumseh.github.io/Rhyme-line/
 Project Wireframe
 
 https://drive.google.com/file/d/1oZFtAvncniCaddgeS1BZjI3dYxSockEe/view?usp=sharing
-https://drive.google.com/drive/folders/13hSdPQG12BaoV6_7bBkUC7QVhbYusck3
+https://drive.google.com/file/d/1y98H70gBvN0nuFpbx2pPoR4zJbe399n6/view?usp=sharing
 
 Component Heirarchy
 https://drive.google.com/file/d/1uRUS1qe2G_96F0vOirGM4q3V956X_RV6/view?usp=sharing
