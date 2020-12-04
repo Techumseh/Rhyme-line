@@ -9,6 +9,8 @@ Project Wireframe
 https://drive.google.com/file/d/1oZFtAvncniCaddgeS1BZjI3dYxSockEe/view?usp=sharing
 https://drive.google.com/file/d/1uRUS1qe2G_96F0vOirGM4q3V956X_RV6/view?usp=sharing
 
+Component Heirarchy
+https://drive.google.com/file/d/1uRUS1qe2G_96F0vOirGM4q3V956X_RV6/view?usp=sharing
 
 This is an desktop first web application creatle a list of music artists and return information about them including rtistName, albumImage, artistAlbum, albumSong, albumYear, artistTwitter, artistFacebook
 
