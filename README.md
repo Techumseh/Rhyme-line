@@ -4,20 +4,24 @@ Rhymeline is a web app designed for creating a playlist on musical artists.
 Project Description
 https://techumseh.github.io/Rhyme-line/
 
+Project Wireframe
+
+https://drive.google.com/file/d/1oZFtAvncniCaddgeS1BZjI3dYxSockEe/view?usp=sharing
+https://drive.google.com/file/d/1uRUS1qe2G_96F0vOirGM4q3V956X_RV6/view?usp=sharing
 
 
-
-This is an desktop first web application creatle a list of music artists and return information about them including Artist Photo Artist Artist Social Media Link to artist on music store platform
+This is an desktop first web application creatle a list of music artists and return information about them including rtistName, albumImage, artistAlbum, albumSong, albumYear, artistTwitter, artistFacebook
 
 
 MVP/PostMVP
 The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 MVP
-These are examples only. Replace with your own MVP features.
 
 Use external api from Airtable
-Update artist information including Name, Genre, Albumn List, Artist Bio, Artist Photo
+Update artist information including artistName, albumImage, artistAlbum, albumSong, albumYear, artistTwitter, artistFacebook
+Allow user to add artist information for playlist
+
 PostMVP
 Allow user to select artist album track and listen to sample
 Allow user to follow link to music store to purchase/add music to playlist
