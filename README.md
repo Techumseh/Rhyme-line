@@ -12,6 +12,22 @@ https://drive.google.com/file/d/1uRUS1qe2G_96F0vOirGM4q3V956X_RV6/view?usp=shari
 Component Heirarchy
 https://drive.google.com/file/d/1uRUS1qe2G_96F0vOirGM4q3V956X_RV6/view?usp=sharing
 
+API and Data Sample
+{
+    "records": [
+        {
+            "id": "recK4cpaJQvHFNJQG",
+            "fields": {
+                "artistTwitter": "<https://twitter.com/officialrundmc>\n",
+                "albumImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Tougher_Than_Leather.jpg/220px-Tougher_Than_Leather.jpg",
+                "albumYear": "1988",
+                "artistFacebook": "<https://www.facebook.com/rundmcmusic/>\n",
+                "albumSong": "Christmas in Hollis",
+                "artistAlbum": "Tougher Than Leather",
+                "artistName": "Run DMC"
+            }
+            
+            
 This is an desktop first web application creatle a list of music artists and return information about them including rtistName, albumImage, artistAlbum, albumSong, albumYear, artistTwitter, artistFacebook
 
 
