@@ -8,7 +8,7 @@ https://airtable.com/tblOl4Xf9d8DDeiqQ/viwO6tfhwoc973zVw?blocks=hide
 
 
 
-This is an desktop first web application creatle a list of music artists and return information about them including Artist Photo Artist Bio Artist Musicography Genre Link to artist on music store platform
+This is an desktop first web application creatle a list of music artists and return information about them including Artist Photo Artist Artist Social Media Link to artist on music store platform
 
 
 MVP/PostMVP
