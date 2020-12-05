@@ -32,7 +32,7 @@ https://techumseh.github.io/Rhyme-line/
             }
 ```
 
-This is an desktop first web application creatle a list of music artists and return information about them including rtistName, albumImage, artistAlbum, albumSong, albumYear, artistTwitter, artistFacebook
+This is an desktop first web application creatle a list of music artists and return information about them including artistName, albumImage, artistAlbum, albumSong, albumYear, artistTwitter, artistFacebook
 
 ## MVP/PostMVP
 
