@@ -1,0 +1,48 @@
+import { Link } from "react-router-dom";
+import axios from "axios";
+import { baseURL, config } from "../services/generic";
+
+
+// import ImageDisplay from './ImageDisplay.jsx'
+
+function Artist(props) {
+  const handleDelete = async () => {
+    const artistURL = `${baseURL}/${props.artist.id}`;
+    await axios.delete(artistURL, config);
+    props.setToggleFetch((prev) => !prev);
+  };
+  
+  return (
+  
+    <div>
+  
+      <img src={props.artist.fields.albumImage}></img>
+      <em>
+      <strong>
+          <h2>{props.artist.fields.artistName}</h2>
+          </strong>
+      </em>
+      
+        <div>{props.artist.fields.artistAlbum}</div>
+      
+        <div>{props.artist.fields.albumSong}</div>
+     
+        <div>{props.artist.fields.albumYear}</div>
+      
+      <Link>{props.artist.fields.artistTwitter}</Link><br>
+      </br>
+     
+      <Link>{props.artist.fields.artistFacebook}</Link><br>
+      </br>
+
+
+      <Link to={`/edit/${props.artist.id}`}>
+        <button>EDIT</button>
+      </Link>
+      <button onClick={handleDelete}>DELETE</button><br></br>
+      <br></br>
+      
+    </div>
+  );
+}
+export default Artist;
