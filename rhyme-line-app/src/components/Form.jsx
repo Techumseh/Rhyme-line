@@ -36,7 +36,7 @@ function Form(props) {
         placeholder="Artist Name"
         value={inputArtist}
         name='text'
-        classname='artist-input'
+        className='artist-input'
         onChange={(e)=>setInputArtist(e.target.value)}
       />
       
@@ -44,7 +44,7 @@ function Form(props) {
         placeholder="Artist Album"
         value={artistAlbum}
         name='text'
-        classname='artist-album'
+        className='artist-album'
         onChange={(e) => setArtistAlbum(e.target.value)}
       />
       
@@ -52,33 +52,33 @@ function Form(props) {
         placeholder="Album Song"
         value={albumSong}
         name='text'
-        classname='album-song'
+        className='album-song'
         onChange={(e) => setAlbumSong(e.target.value)}/> 
       
       <input type="text"
         placeholder="Album Year"
         value={albumYear}
         name='text'
-        classname='album-year'
+        className='album-year'
         onChange={(e) => setAlbumYear(e.target.value)}/> 
       
       <input type="text"
         placeholder="Album Image"
         value={albumImage} name='text'
-        classname='album-image'
+        className='album-image'
         onChange={(e) => setAlbumImage(e.target.value)}/>
       
       <input type="text"
         placeholder="Artist Twitter"
         value={artistTwitter}
         name='text'
-        classname='artist-twitter'
+        className='artist-twitter'
         onChange={(e) => setArtistTwitter(e.target.value)}/>
       <input type="text"
         placeholder="Artist Facebook"
         value={artistFacebook}
         name='text'
-        classname='artist-facebook'
+        className='artist-facebook'
         onChange={(e) => setArtistFacebook(e.target.value)}/>
       
       <button type="submit" className="submit-artist">

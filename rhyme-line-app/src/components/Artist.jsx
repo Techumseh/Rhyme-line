@@ -29,10 +29,10 @@ function Artist(props) {
      
         <div>{props.artist.fields.albumYear}</div>
       
-      <Link>{props.artist.fields.artistTwitter}</Link><br>
+      <a href={props.artist.fields.artistTwitter}>Twitter</a><br>
       </br>
      
-      <Link>{props.artist.fields.artistFacebook}</Link><br>
+      <a href={props.artist.fields.artistFacebook}>FaceBook</a><br>
       </br>
 
 
