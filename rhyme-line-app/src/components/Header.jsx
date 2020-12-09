@@ -1,10 +1,12 @@
 import React from 'react'
+import logo from "../assets/rhyme-line.png"
+
 
  function Header() {
-  return (
-    <div>
-      <h1>rhyme-line</h1>
-    </div>
-  )
+   return (
+     <header>
+       <img src={logo }></img>
+      </header>
+   );
 }
 export default Header

@@ -19,7 +19,7 @@ function Artist(props) {
       <img src={props.artist.fields.albumImage}></img>
       <em>
       <strong>
-          <h2>{props.artist.fields.artistName}</h2>
+          <p>{props.artist.fields.artistName}</p>
           </strong>
       </em>
       

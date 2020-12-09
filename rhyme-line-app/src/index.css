@@ -34,3 +34,20 @@ h1 {
   color: white;
 
 }
+header {
+  /* box-sizing: border-box; */
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: rgb(0, 0, 0);
+  color:rgb(247, 244, 244);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
