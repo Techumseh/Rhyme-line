@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Rhymeline is a web app designed for creating a playlist on musical artists.
 
-## Available Scripts
+Project Description
+https://techumseh.github.io/Rhyme-line/
 
-In the project directory, you can run:
+## Project Wireframe
 
-### `npm start`
+- [mobile view](https://drive.google.com/file/d/1oZFtAvncniCaddgeS1BZjI3dYxSockEe/view?usp=sharing)
+- [desktop view](https://drive.google.com/file/d/1y98H70gBvN0nuFpbx2pPoR4zJbe399n6/view?usp=sharing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Component Heirarchy
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [diagram](https://drive.google.com/file/d/1uRUS1qe2G_96F0vOirGM4q3V956X_RV6/view?usp=sharing)
 
-### `npm test`
+## API and Data Sample
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```json
+{
+    "records": [
+        {
+            "id": "recK4cpaJQvHFNJQG",
+            "fields": {
+                "artistTwitter": "<https://twitter.com/officialrundmc>\n",
+                "albumImage": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Tougher_Than_Leather.jpg/220px-Tougher_Than_Leather.jpg",
+                "albumYear": "1988",
+                "artistFacebook": "<https://www.facebook.com/rundmcmusic/>\n",
+                "albumSong": "Christmas in Hollis",
+                "artistAlbum": "Tougher Than Leather",
+                "artistName": "Run DMC"
+            }
+```
 
-### `npm run build`
+This is an desktop first web application creatle a list of music artists and return information about them including artistName, albumImage, artistAlbum, albumSong, albumYear, artistTwitter, artistFacebook
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## MVP/PostMVP
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The functionality will then be divided into two separate lists: MPV and PostMVP.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## MVP
 
-### `npm run eject`
+Use external api from Airtable
+Update artist information including artistName, albumImage, artistAlbum, albumSong, albumYear, artistTwitter, artistFacebook
+Allow user to add artist information for playlist
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## PostMVP
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Allow user to select artist album track and listen to sample
+Use local storage to save user favorites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+##Project Schedule
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You are responsible for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding Saturday and Sunday.
 
-## Learn More
+##Day Deliverable Status
+Dec 03 Prompt / Wireframes / Priority Matrix / Timeframes Incomplete
+Dec 04 Project Approval Incomplete
+Dec 05Core Application Structure (HTML, CSS, etc.) Incomplete
+Dec 06 Pseudocode / actual code Incomplete
+Dec 04 MVP Incomplete
+Dec 10 Upload to GitHub
+Dec 11 Presentations Incomplete
+Priority Matrix
+URL
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Timeframes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Component Priority Estimated Time Time Invested Actual Time
+Wireframe H 3hrs 3.5hrs 0
+HTML Structure H 3hrs 3.5hrs 0
+Create Search H 3hrs 3.5hrs 0
+Adding Form H 3hrs 3.5hrs 0
+CSS/Design L 3hrs 3.5hrs 0
+Basic CSS H 3hrs 3.5hrs 0
+Adding Form H 3hrs 3.5hrs 0
+Working with API H 3hrs 2.5hrs 0
+UX/UD L 3hrs 3.5hrs 0
+DOM Elements L 3hrs 3.5hrs 0
+Total H 6hrs 5hrs 5hrs
 
-### Code Splitting
+## Change Log
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Use this section to document what changes were made and the reasoning behind those changes.
