@@ -37,9 +37,9 @@ function Artist(props) {
 
 
       <Link to={`/edit/${props.artist.id}`}>
-        <button>EDIT</button>
+        {/* <button onclick={handeleEdit}>EDIT</button> */}
       </Link>
-      <button onClick={handleDelete}>DELETE</button><br></br>
+        <button onClick={handleDelete}>DELETE</button><br></br>
       <br></br>
       
     </div>

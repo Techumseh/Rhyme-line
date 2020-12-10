@@ -3,12 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-      <button className="submit-artist">
-        Add Artist Info
-      </button>
-      <button className="delete-artist">
-      Delete Artist Info
-      </button>
+     © 2020 rhyme-line All Rights Reserved
     </div>
   )
 }

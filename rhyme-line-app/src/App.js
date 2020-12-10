@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import { baseURL, config } from "./services/generic";
 import "./App.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer"
 
 
 
@@ -37,6 +38,7 @@ function App() {
       <Route path="/edit/:id">
         <Form artists={artists} setToggleFetch={setToggleFetch} />
       </Route>
+      <Footer/>
     </div>
   );
 }
