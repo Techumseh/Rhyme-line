@@ -10,13 +10,16 @@ function Artist(props) {
     const artistURL = `${baseURL}/${props.artist.id}`;
     await axios.delete(artistURL, config);
     props.setToggleFetch((prev) => !prev);
+    
   };
   
   return (
   
-    <div>
+    <div className="artist">
   
       <img src={props.artist.fields.albumImage}></img>
+     
+      <div className="artistinfo">
       <em>
       <strong>
           <p>{props.artist.fields.artistName}</p>
@@ -39,9 +42,9 @@ function Artist(props) {
       <Link to={`/edit/${props.artist.id}`}>
         {/* <button onclick={handeleEdit}>EDIT</button> */}
       </Link>
-        <button onClick={handleDelete}>DELETE</button><br></br>
+      <button onClick={handleDelete}>DELETE</button><br></br>
       <br></br>
-      
+      </div>
     </div>
   );
 }

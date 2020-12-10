@@ -34,7 +34,8 @@ h1 {
 
 }
 header {
-  /* box-sizing: border-box; */
+
+  /* flex-direction: column; */
   width: 100%;
   display: flex;
   justify-content: left;
@@ -61,3 +62,32 @@ footer {
   background-color: orange;
   color:rgb(247, 244, 244);
 }
+
+.artist {
+display: flex;
+width: 400px;
+margin: 0 auto;
+/* justify-content: space-between; */
+padding: 1em;
+
+}
+.artistinfo {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* .artistalbum {
+  width: 200px;
+  height: auto;
+  
+} */
+
+@media screen and (max-width:600px) {
+  header {
+    flex-direction: column;
+  }
+  .artist{
+    flex-direction: column;
+  }
+}
+
