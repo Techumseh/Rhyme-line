@@ -4,9 +4,12 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     background-image: url(./assets/pianoconcert.jpg);
-  background-attachment: fixed;
-  background-color:orange;
-  color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:orange;
+    color:white;
 
 }
 
@@ -86,6 +89,7 @@ padding: 1em;
 @media screen and (max-width:600px) {
   header {
     flex-direction: column;
+    
   }
   .artist{
     align-items: baseline;
