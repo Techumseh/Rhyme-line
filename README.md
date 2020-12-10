@@ -5,6 +5,9 @@ Rhymeline is a web app designed for creating a playlist on musical artists.
 Project Description
 https://techumseh.github.io/Rhyme-line/
 
+# Project Deployment
+https://rhyme-line.netlify.app/
+
 ## Project Wireframe
 
 - [mobile view](https://drive.google.com/file/d/1oZFtAvncniCaddgeS1BZjI3dYxSockEe/view?usp=sharing)
